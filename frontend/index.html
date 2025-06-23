@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chrome Summarizer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <h1>AI Chrome Summarizer</h1>
+    <textarea id="selected-text" placeholder="Highlight any text on this page, then choose an action below..." readonly></textarea>
+    <div class="buttons">
+      <button id="summarize-btn">Summarize</button>
+      <button id="suggest-btn">Suggest</button>
+    </div>
+    <div class="r-container">
+      <h2>Response</h2>
+      <div id="response"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
