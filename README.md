@@ -22,7 +22,7 @@ Highlight any text on a web page → Click a button → Get an **AI-powered summ
 | Extension   | HTML, CSS, JS|
 | Backend     | Spring Boot (Java 17), Maven |
 | AI Engine   | Gemini API |
-| Communication | REST (JSON) |
+| API Layer | REST API|
 
 
 ## 🧩 Key Features
